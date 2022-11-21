@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    background: #222831;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+    align-items: center;
+}
+
+.logo {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 36;
+    color: white;
+}
+
+.nav_item {
+    margin-left: 48px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    transition: .1s;
+}
+
+.nav_item:hover {
+    color: #00ADB5;
+    border-bottom: 1px solid #00ADB5;
+}
+
+.devider {
+    position: absolute;
+    top: 140px;
+    left: 0;
+    width: 100%;
+    border-bottom: 1px solid #393E46;
+}
+
+.home {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 200px;
+}
+
+.right_block {
+    margin-top: -44px;
+}
+
+.home_title {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.home_inner {
+    margin-left: 12px;
+}
+
+.home_arrow {
+    position: relative;
+    top: 30px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 96px;
+    color: white;
+    text-transform: uppercase;
+    line-height: 96px;
+}
+
+.designer {
+    color: #00ADB5;
+}
+
+.button_contain {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 32px;
+}
+
+.hire_button {
+    font-weight: 700;
+    font-size: 18px;
+    padding: 16px 32px;
+    border: 2px solid #00ADB5;
+    border-radius: 24px;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.5) ;
+    box                                                                                                         -shadow: 0 6px 6px rgba(0, 0, 0, 0.5) ;
+    background-color: #00ADB5;
+    color: white;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.hire_button:hover {
+    border: 2px solid #00ADB5;
+    border-radius: 24px;
+    background: #222831;
+}
+
+.button_text {
+    text-shadow: 0 6px 6px rgba(0, 0, 0, 0.5) ;
+}
+
+.download_contain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 24px;
+    padding: 14px 32px;
+    border: 2px solid #393E46;
+    border-radius: 24px;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.5) ;
+    background-color: #393E46;
+    transition: .3s;
+}
+
+.download_contain:hover {
+    border: 2px solid #00ADB5;
+    background: #00ADB5;
+}
+
+.download_button {
+    font-weight: 700;
+    font-size: 18px;
+    border: none;
+    background: rgba(0, 0, 0, 0);
+    color: white;
+    cursor: pointer;
+}
+
+.arrow {
+    position: absolute;
+    bottom: 60px;
+    right: 1080px;
+    padding: 15px 20px 10px;
+    background: #393E46;
+    transition: .3s linear;
+    cursor: pointer;
+}
+
+.arrow:hover {
+    background: #00ADB5;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 100vh;
+    padding-top: 180px;
+}
+
+.about_img {
+    position: absolute;
+    margin-top: -120px;
+}
+
+.about_contain {
+    position: relative;
+    max-width: 600px;
+}
+
+.about_title {
+    font-weight: 700;
+    font-size: 64px;
+    color: white;
+}
+
+.me {
+    color: #00ADB5;
+}
+
+.about_text {
+    font-weight: 300;
+    font-size: 18px;
+    color: #EEEEEE;
+}
+
+.read_more {
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+    transition: .2s linear;
+}
+
+.read_more:hover {
+    color: #00ADB5;
+}
